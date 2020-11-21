@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/L0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/aback1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_register"/>
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:id="@+id/registe"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="注册"
+            android:textSize="25dp"
+            android:paddingLeft="38dp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:src="@drawable/splash_logo"
+        android:layout_marginBottom="30dp"/>
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/user1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_user"/>
+
+        <EditText
+            android:id="@+id/user11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入账号"
+            android:inputType="text"
+            android:lines="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/L2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/password1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_password"/>
+        <EditText
+            android:id="@+id/password11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            android:lines="1"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/password2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_password"/>
+        <EditText
+            android:id="@+id/password22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请再次输入密码"
+            android:lines="1"
+            android:inputType="text"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册" />
+
+</LinearLayout>
